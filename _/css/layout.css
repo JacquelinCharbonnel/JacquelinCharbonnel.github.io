@@ -1,0 +1,39 @@
+.footer p {
+	font-size: 80%;
+	font-style: italic;
+	line-height: 0;
+}
+.footer p.center {
+	text-align: center;
+}
+.footer p.right {
+	text-align: right;
+}
+
+.lastmodify {
+    text-align: right;
+    font-size: 50%;
+    font-style: italic;
+}
+
+.navbar {
+	background: -webkit-gradient(linear,right top,left bottom,color-stop(29%,#0c9),color-stop(84%,#cfc));
+	background: linear-gradient(to bottom left,#0c9 29%,#cfc 84%) !important;
+	color:#fff;
+	font-size:.88889rem;
+	height:3.5rem;
+	position:fixed;
+	top:0;
+	width:100%;
+	word-wrap:break-word;
+	z-index:4
+}
+
+footer.footer {
+	background:-webkit-gradient(linear,right top,left bottom,color-stop(29%,#0c9),color-stop(84%,#cfc));
+	background:linear-gradient(to bottom left,#0c9 29%,#cfc 84%);
+	color:#5d5d5d;
+	font-size:.83333rem;
+	line-height:1.6
+}
+
