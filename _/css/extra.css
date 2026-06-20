@@ -33,3 +33,12 @@ th,td  {
   padding: 4px 10px 4px 10px !important;
 }
 
+/* élargir la colonne de gauche */
+.sidebar {
+    flex: 0 0 150px; /* largeur fixe de 350px, ajustable */
+}
+
+/* ajuster le contenu principal pour qu'il occupe le reste */
+.main {
+    flex: 1;
+}
